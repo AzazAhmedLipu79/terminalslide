@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terminalslide"
+version = "1.0.0"
+description = "Terminal-native markdown presentation tool with live reload, syntax highlighting, themes, and PDF export."
+readme = "readme.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["terminal", "presentation", "slides", "markdown", "tui", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Terminals",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
+dependencies = [
+    "textual>=0.50.0",
+    "rich>=13.0.0",
+    "pygments>=2.16.0",
+    "watchdog>=3.0.0",
+    "reportlab>=4.0.0",
+    "PyYAML>=6.0",
+    "click>=8.0.0",
+]
+
+[project.scripts]
+terminalslide = "terminalslide.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["terminalslide*"]
