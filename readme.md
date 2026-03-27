@@ -488,4 +488,10 @@ Make sure your terminal supports Unicode and has a modern font (e.g. JetBrains M
 
 ---
 
+---
+
+**Read the story behind this project:** [I Turned My Terminal Into a Presentation Tool](https://azazahmedlipu.com/articles/i-turned-my-terminal-into-a-presentation-tool)
+
+---
+
 *TerminalSlide is open source and MIT licensed. Built with [Textual](https://github.com/Textualize/textual), [Rich](https://github.com/Textualize/rich), and a love for the terminal.*
