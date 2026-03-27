@@ -1,2 +1,0 @@
-[console_scripts]
-terminalslide = terminalslide.main:main
