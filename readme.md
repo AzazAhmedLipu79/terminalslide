@@ -41,7 +41,7 @@ terminalslide starter.md
 
 That's it. You're presenting.
 
-![1774556489636](images/readme/1774556489636.png)
+![Quick Start](https://raw.githubusercontent.com/azazahmedlipu79/terminalslide/main/images/readme/1774556489636.png)
 
 ---
 
@@ -124,7 +124,7 @@ Then the presentation opens fullscreen.
 
 Everything you already write in markdown works. Here's what TerminalSlide specifically supports:
 
-![1774556550802](images/readme/1774556550802.png)
+![Markdown Syntax](https://raw.githubusercontent.com/azazahmedlipu79/terminalslide/main/images/readme/1774556550802.png)
 
 ### Slide Title
 
@@ -234,7 +234,9 @@ Once you open a file, TerminalSlide is fully keyboard-driven.
 - **Bottom bar** - navigation hints and current slide number
 - **Progress bar** - fills as you move through the deck
 
-![1774556672780](images/readme/1774556672780.png)---
+![Screen Layout](https://raw.githubusercontent.com/azazahmedlipu79/terminalslide/main/images/readme/1774556672780.png)
+
+---
 
 ## Themes
 
@@ -291,7 +293,7 @@ Once a target is set:
 
 Press `Tab` at any time to enter the overview grid. You'll see all your slides as small cards.
 
-![1774556625944](images/readme/1774556625944.png)
+![Slide Overview](https://raw.githubusercontent.com/azazahmedlipu79/terminalslide/main/images/readme/1774556625944.png)
 
 ```
 ┌──────────────────────────────────────────────────────┐
