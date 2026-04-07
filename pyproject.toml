@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "terminalslide"
-version = "1.0.0"
-description = "Terminal-native markdown presentation tool with live reload, syntax highlighting, themes, and PDF export."
+version = "1.0.1"
+description = "Turn Terminal into a native markdown presentation tool with live reload, syntax highlighting, themes and PDF export. Everything that you need for a perfect presentation."
 readme = "readme.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
