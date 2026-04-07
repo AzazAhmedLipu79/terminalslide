@@ -31,14 +31,11 @@ Built for developers, educators, and anyone who thinks in plain text.
 
 ## Quick Start
 
+**The simplest way to get started:**
+
 ```bash
-# 1. Activate your environment
-source .venv/bin/activate
-
-# 2. Generate a starter deck
+pip install terminalslide
 terminalslide init
-
-# 3. Present it
 terminalslide starter.md
 ```
 
@@ -52,21 +49,32 @@ That's it. You're presenting.
 
 TerminalSlide requires **Python 3.10 or newer**.
 
-```bash
-# Create a virtual environment (recommended)
-python3 -m venv .venv
-source .venv/bin/activate
+### Option 1: Install from PyPI (Recommended)
 
-# Install
+```bash
 pip install terminalslide
 ```
 
-To confirm it installed correctly:
+To confirm it installed:
 
 ```bash
 terminalslide --version
 # terminalslide, version 1.0.0
 ```
+
+### Option 2: Install from Source (Development)
+
+Clone the repo and install in editable mode:
+
+```bash
+git clone https://github.com/azazahmedlipu79/terminalslide.git
+cd terminalslide
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+Now `terminalslide` is installed and any changes you make to the source will take effect immediately.
 
 ---
 
